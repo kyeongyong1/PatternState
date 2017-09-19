@@ -14,6 +14,8 @@
 		9B4CDC311F715E230005E306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B4CDC2F1F715E230005E306 /* LaunchScreen.storyboard */; };
 		9B4CDC3C1F715E230005E306 /* PatternStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4CDC3B1F715E230005E306 /* PatternStateTests.swift */; };
 		9B4CDC471F715E230005E306 /* PatternStateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4CDC461F715E230005E306 /* PatternStateUITests.swift */; };
+		9B4CDC551F715E980005E306 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4CDC541F715E980005E306 /* State.swift */; };
+		9B4CDC571F715EF10005E306 /* GumballMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4CDC561F715EF10005E306 /* GumballMachine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9B4CDC421F715E230005E306 /* PatternStateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatternStateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4CDC461F715E230005E306 /* PatternStateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternStateUITests.swift; sourceTree = "<group>"; };
 		9B4CDC481F715E230005E306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B4CDC541F715E980005E306 /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		9B4CDC561F715EF10005E306 /* GumballMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GumballMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				9B4CDC261F715E230005E306 /* AppDelegate.swift */,
 				9B4CDC281F715E230005E306 /* ViewController.swift */,
+				9B4CDC541F715E980005E306 /* State.swift */,
+				9B4CDC561F715EF10005E306 /* GumballMachine.swift */,
 				9B4CDC2A1F715E230005E306 /* Main.storyboard */,
 				9B4CDC2D1F715E230005E306 /* Assets.xcassets */,
 				9B4CDC2F1F715E230005E306 /* LaunchScreen.storyboard */,
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B4CDC571F715EF10005E306 /* GumballMachine.swift in Sources */,
 				9B4CDC291F715E230005E306 /* ViewController.swift in Sources */,
 				9B4CDC271F715E230005E306 /* AppDelegate.swift in Sources */,
+				9B4CDC551F715E980005E306 /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
